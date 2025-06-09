@@ -20,6 +20,9 @@ This web is about my work in riwi
 
 
 nombre:Juan Felipe Tumay Gonzalez
+
 clan: Gosling
+
 email: felipetumay354@gmail.com
+
 cedula:1122923419
