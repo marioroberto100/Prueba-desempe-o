@@ -1,0 +1,606 @@
+/* colors */
+
+:root{
+    /* color Secundario */
+    --secundario: rgb(48, 90, 206);
+    
+}
+/* background blue color */
+body{
+    background-color: var(--secundario) ;
+    padding: 42px;
+    padding-top: 70px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+
+.background{
+    background-color: white ;
+    
+}
+/* header nav */
+.header{
+    display: grid;
+    grid-template-columns: auto 1.2fr 1fr;
+    margin-left: 5rem;
+    padding-top: 1.5rem;
+    
+    
+}
+
+.header header{
+    display: flex;
+
+}
+.header img{
+    width: 100px;
+    height: auto;
+    display: flex;
+
+    
+   
+}
+.header nav{
+    display: flex;
+    gap: 4rem;
+    margin-left: 20rem;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.header a{
+    
+    text-decoration: none;
+    color: black;
+}
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 1.8rem;
+    margin-left: 10rem;
+    border-radius: 20rem;
+    border-color: var(--secundario);
+    
+    
+}
+/* hero */
+
+.hero{
+    display: grid;
+    grid-template-columns: 0.5fr  0.5fr;
+    margin-top: 4rem;
+    
+    
+    
+}
+span{
+    color: var(--secundario);
+}
+.hero h1{
+    font-size: 2rem;
+}
+.hero h2{
+    grid-column: 1/2;
+    
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+
+.hero>div{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/2;
+    margin-left: 6rem;
+}
+.hero>div>div{
+    
+    margin-left: 20px;
+    grid-column: 1/2
+    
+    
+}
+
+.hero img{
+    display: flex;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    width: 20rem;
+    height: auto;
+    margin-left: 10rem;
+    
+}
+.hero button{
+    height: 2.5rem;
+    border-radius: 20rem;
+    background-color: var(--secundario);
+    color: white;
+}
+/* results */
+
+.results{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:7rem;
+    
+}
+
+
+
+
+p{
+    font-size: 0.9rem;
+}
+.results h1{
+    color: var(--secundario);
+    font-size: 1.5rem;
+}
+
+.hr1{
+    transform: rotate(90deg);
+    width:6rem ;
+    position: absolute;
+    right: 41rem;
+    top: 41rem;
+    
+}
+.hr2{
+    transform: rotate(90deg);
+    width:6rem ;
+    position: absolute;
+    right: 80rem;
+    top: 41rem;
+    
+}
+.results div{
+    justify-items: center;
+    
+
+}
+
+/* skills section */
+
+.Skills{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+
+
+.left-part h2{
+    grid-column: 1/2;
+    
+    
+    font-size: 1rem;
+    
+}
+
+.left-part{
+    margin-left: 20px;
+
+}
+.left-part h1{
+    font-size: 2rem;
+    
+    
+}
+
+.mid-part{
+    align-items: center;
+    justify-content: center;
+}
+
+/* project section */
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 7rem;
+    margin-top: 6rem;
+}
+.projects img{
+    width: 250px;
+    height: 350PX;
+    border-radius: 3rem;
+    border: 0.5rem solid;
+    margin-left:4rem;
+    
+    
+}
+.projects  h1{
+    font-size: 2rem;
+    
+    
+}
+.projects h2{
+    font-size: 1rem;
+}
+
+/* contact section */
+.contact-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+
+}
+
+.contact-start h2{
+    color: var(--secundario);
+}
+
+.contact-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-main>div {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    
+}
+.contact-main>div>div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    border: 0.1rem solid;
+    width: 20rem;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    
+    
+    
+
+
+}
+.contact-main h3{
+    font-size: 0.8rem;
+}
+
+.contact-main img{
+    width: 3rem;
+    height: 3rem;
+    margin-top:  1rem;
+}
+
+form{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+input{
+    width: 25rem;
+}
+
+textarea{
+    width: 25rem;
+    height: 10rem;
+    
+}
+.contact-main button{
+    height: 2.5rem;
+    border-radius: 20rem;
+    background-color: var(--secundario);
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+
+
+/* background blue color */
+body{
+    background-color: var(--secundario) ;
+    padding: 1rem;
+    padding-top: 1rem;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    
+}
+
+
+.background{
+    background-color: white ;
+    
+}
+/* header nav */
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    margin-right: 15px;
+    align-items:end;
+    
+    
+}
+
+.header header{
+    display: flex;
+    margin-right: 15px;
+
+}
+.header img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    
+
+    
+   
+}
+.header nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+    
+    
+    
+}
+.header a{
+    
+    text-decoration: none;
+    color: black;
+}
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 1.8rem;
+    margin-left: 5rem;
+    border-radius: 10rem;
+    border-color: var(--secundario);
+    
+}
+/* hero */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+span{
+    color: var(--secundario);
+}
+.hero h1{
+    font-size: 2rem;
+}
+.hero h2{
+    grid-column: 1/2;
+    
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+
+.hero>div{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+   
+   
+}
+.hero>div>div{
+    
+    margin-left: 20px;
+    grid-column: 1/2
+    
+    
+}
+
+.hero img{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    margin-left: 0px;
+  
+    
+}
+.hero button{
+    height: 2.5rem;
+    border-radius: 20rem;
+    background-color: var(--secundario);
+    color: white;
+}
+/* results */
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+p{
+    font-size: 0.9rem;
+}
+.results h1{
+    color: var(--secundario);
+    font-size: 1.5rem;
+}
+
+.hr1{
+    transform: rotate(90deg);
+    width:6rem ;
+    position: absolute;
+    right: 41rem;
+    top: 41rem;
+    
+}
+.hr2{
+    transform: rotate(90deg);
+    width:6rem ;
+    position: absolute;
+    right: 80rem;
+    top: 41rem;
+    
+}
+.results div{
+    justify-items: center;
+    
+
+}
+
+/* skills section */
+
+.Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+/* project section */
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects img{
+    width: 150px;
+    height: 250PX;
+    border-radius: 3rem;
+    border: 0.5rem solid;
+    
+    
+    
+}
+.projects  h1{
+    font-size: 2rem;
+    
+    
+}
+.projects h2{
+    font-size: 1rem;
+}
+.left-part{
+    margin-left: 0px;
+}
+
+/* contact section */
+.contact-start{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-start h2{
+    color: var(--secundario);
+}
+
+.contact-main{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main>div {
+    display: grid;
+    gap: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    
+}
+.contact-main>div>div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    border: 0.1rem solid;
+    width: 15rem;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    
+    
+    
+
+
+}
+.contact-main h3{
+    font-size: 0.8rem;
+}
+
+.contact-main img{
+    width: 3rem;
+    height: 3rem;
+    margin-top:  1rem;
+}
+
+form{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+input{
+    width: 15rem;
+}
+
+textarea{
+    width: 15rem;
+    height: 5rem;
+    
+}
+.contact-main button{
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: var(--secundario);
+    color: white;
+    
+}
