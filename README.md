@@ -1,4 +1,6 @@
 # Prueba-desempe-o
+This web is about my work in riwi
+
 1.in this section, i present miself and put a bar of navegation to bring rapid acces to the usser
 
 ![hola](https://github.com/user-attachments/assets/e60e89ce-a479-4a2c-a6e1-a73dd33eb6e7)
@@ -13,8 +15,11 @@
 
 4. i share mi contact information
   
-5. ![Captura desde 2025-06-09 14-01-00](https://github.com/user-attachments/assets/9403b9c2-687b-440c-a07e-55f38c27f865)
+![Captura desde 2025-06-09 14-01-00](https://github.com/user-attachments/assets/9403b9c2-687b-440c-a07e-55f38c27f865)
 
 
 
-
+nombre:Juan Felipe Tumay Gonzalez
+clan: Gosling
+email: felipetumay354@gmail.com
+cedula:1122923419
